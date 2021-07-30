@@ -1,16 +1,8 @@
-#READ ME : Compression
-
-Name: Pushan Gore  <br>
-MIS:  111503023    <br>
-
-GIT Link : https://github.com/Pushan-Gore/DSA_mini_project.git
-
 **Project : Compression** 
 
 The program uses the LZW compression algorithm (My modified version) to compress a file into a single file with
 ".jay" extension. <br>
 The program can also compress a folder to a "single" folder with ".jay" extension. <br>
-".jay" format stands for : My tar.gz <br>
 I have used my modified version of LZW algorithm for this project. <br>
 The algorithm reads characters from the file and writes them to the dictionary. <br>
 The dictionary stores a character sequence which is not in the dictionary entry. <br>
@@ -46,5 +38,3 @@ The program takes some time to compress very large files. <br>
 Although extracting takes less than a second. <br>
 Also there is a slight problem with .pdf, .mp3  and some .jpg formats.	A "single" unknown character may occur while decompressing text file. <br>
 All other formats work perfectly. <br>
-
-
